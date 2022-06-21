@@ -6,17 +6,17 @@ import styled from "styled-components";
 import { GiKnifeFork } from "react-icons/gi";
 function App() {
     return (
-        <div className="App">
+        <Order className="App">
             <BrowserRouter>
                 <Nav>
                     <GiKnifeFork />
-                    <Logo to={"/"}>deliciousss</Logo>
+                    <Logo to={"/"}>Have fun :)</Logo>
                 </Nav>
                 <Category />
                 <Search />
                 <Pages />
             </BrowserRouter>
-        </div>
+        </Order>
     );
 }
 
@@ -27,13 +27,20 @@ const Logo = styled(Link)`
     font-family: "Lobster Two", cursive;
 `;
 
+const Order = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
 const Nav = styled.div`
     padding: 4rem 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
     svg {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 `;
 
