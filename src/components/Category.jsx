@@ -42,22 +42,30 @@ const SLink = styled(NavLink)`
     border-radius: 50%;
     margin-right: 2rem;
     text-decoration: none;
+    padding: 0.5rem;
     background: linear-gradient(35deg, #494949, #313131);
-    width: 6rem;
-    height: 6rem;
+    width: 12rem;
+    height: 10rem;
     cursor: pointer;
     transform: scale(0.8);
 
+    &:hover {
+    }
+
     h4 {
         color: #fff;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     svg {
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     &.active {
         background: linear-gradient(to right, #f27121, #e94057);
+        -webkit-box-shadow: inset 0px 0px 30px #323232;
+        -moz-box-shadow: inset 0px 0px 30px #323232;
+        box-shadow: inset 0px 0px 30px #323232;
+        outline: none;
 
         svg {
             color: #fff;

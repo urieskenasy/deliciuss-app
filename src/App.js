@@ -27,12 +27,7 @@ const Logo = styled(Link)`
     font-family: "Lobster Two", cursive;
 `;
 
-const Order = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`;
+const Order = styled.div``;
 
 const Nav = styled.div`
     padding: 4rem 0rem;
