@@ -3,7 +3,7 @@
 
 # Delicious App
 
-An application I created using ReactJS and third-party API. In the app, you will find thousands of recopies. You can search them through the search input or by cousins. For the vegan user, there is also the option to look for only vegan dishes.
+An application I created using ReactJS and third-party API. In the app, you will find thousands of recipes. You can search them through the search input or by cousins. For the vegan user, there is also the option to look for only vegan dishes.
 Have Fun!
 
 [Live Link](https://delicius-food-czd2000ex-urieskenasy.vercel.app/)
